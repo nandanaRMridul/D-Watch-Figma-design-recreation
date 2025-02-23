@@ -1,0 +1,101 @@
+body {
+  font-family: poppins;
+}
+
+.logo {
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.form-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15% auto;
+}
+
+.h3-container{
+  margin-left: 195px;
+}
+
+.input-box input {
+  width: 300px;
+  background-color: #f0efff;
+  padding: 10px 10px;
+  border: none;
+}
+
+.input-box input::placeholder {
+  color: #a7a3ff;
+  font-size: 15px;
+}
+
+.form-container p {
+  font-size: 15px;
+  color: #b5b5b5;
+  margin: 30px;
+}
+
+.register-button {
+  text-align: center;
+  font-size: 15px;
+  width: 300px;
+  background-color: #4d47c3;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 80px;
+  text-decoration: none;
+}
+
+.socials-container {
+  display: flex;
+}
+
+.socials-container img {
+  margin: 0 10px;
+}
+
+.left-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  margin: 200px 0px 0px 100px; 
+ 
+}
+
+.left-container a {
+  color: #4d47c3;
+  text-decoration: none;
+  position: relative;
+}
+
+.left-bottom {
+  width: 90%;
+  display: flex;
+  justify-content: space-between; 
+  
+}
+
+.left-bottom img {
+  margin-top: 0;
+  height: 556px;
+  position: absolute;
+  top: 48%;
+  left: 26%;
+}
+
+.forgot-pswd {
+  margin-left: auto;
+  margin-right: 100px;
+  text-decoration: none;
+  color: #b5b5b5;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
